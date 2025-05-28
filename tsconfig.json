@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ESNext", //ECMAScript target version
+    "module": "ESNext", // module code generation
+    "sourceMap": true,  // Generates correspiding .map file
+    "strict": true,     // strict type-checking options
+    "outDir": "./out",     //redirect output to the directory
+    "rootDir": "./",     //specify the root directory of input files
+  },
+  "include": [
+    "./**/*.ts" // Include all TypeScript files in the project
+  ]
+}
