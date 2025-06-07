@@ -6,6 +6,8 @@
     "strict": true,     // strict type-checking options
     "outDir": "./out",     //redirect output to the directory
     "rootDir": "./",     //specify the root directory of input files
+    "experimentalDecorators": true, // Enable decorator support
+    "emitDecoratorMetadata": true   // (Optional) Emit metadata for decorators
   },
   "include": [
     "./**/*.ts" // Include all TypeScript files in the project
